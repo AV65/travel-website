@@ -1,3 +1,368 @@
-:root{
-    --white-color: #FFFFFF;
+/* reset */
+body {
+    margin: 0;
+    padding:0;
 }
+
+
+:root{
+    --whitecolor: #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.destination_section {
+    text-align: center;
+}
+
+
+@font-face{
+    font-family: "Urbanist";
+    src: url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+}
+#Gilda{
+    font-family: Gilda Display;
+    font-weight: 400;
+}
+ 
+body{
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+.navigation{
+    font-family: "Gilda Display";
+    color: #13b0a8;
+    display: flex;
+
+}
+.header-text{
+    margin-left: 10%;
+
+    margin-bottom: 20px;
+}
+.menu-pic{
+    margin-left: 270px;
+}
+.h4{
+    margin-left: 0px;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.blurry{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -100px;
+}
+.ellipse{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 26px;
+}
+.view{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 21px;
+    margin-left: -25px;
+}
+.header,#sec1,#sec2,#sec3{
+    margin: 0 10px;
+    padding: auto;
+    justify-content: c;
+}
+ #sec1,#sec2,#sec3,#foot1{
+    text-align: center;
+    margin-right: 20px;
+}
+span{
+    color: #13b0a8;
+}
+.destination{
+    font-size: 150%;
+}
+.cards{
+    display: inline-block;
+    margin-left: -20px;
+}
+.img1{
+    margin-top: 20px;
+   
+    background-position: center;
+    transform: rotate(180deg); 
+ }
+.img-1{
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.img-2{
+    margin-right: 20px;
+    padding:15px ;
+    border-bottom: 10px;
+    margin-right: 20px;
+}
+.img-3{
+    border: 20px solid white;
+    padding: 15px;
+}
+.img-5{
+    margin-top: 30px;
+}
+.img-6{
+    margin-top: 30px;
+}
+.rhine-falls{
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 5px;
+}
+.sunter-lake{
+    text-align: left;
+    margin-left: 25px;
+}
+.negeri-di-atas-awan{
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+#loc1{
+    margin-left: -144px;
+
+}
+#loc2{
+    margin-left: -180px;
+}
+#loc3{
+    margin-left: -180px;
+}
+#loc4{
+    margin-left: -167px;
+}
+#loc5{
+    margin-left: -169px;
+}
+#loc6{
+    margin-left: -163px;
+}
+.mirror-lake,.hot-air-ballon,.oeschinen-lake{
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+.section2{
+    margin-top: 5%;
+    padding: 5%;
+    background-color: bran
+    
+    #666;
+    padding: 10%;
+}
+.why-must-paragraphh{
+    text-align: center;
+}
+.list-top{
+    height: 5px;
+    background-color: #25A59E;
+}
+.best-guide{
+    margin-right: 160px;
+    color: black;
+}
+.best-experience{
+    margin-right: 110px;
+    color: black;
+}
+.your-trip{
+    margin-right: 73px;
+    color: black;
+}
+.with-the{
+    margin-right: 160px;
+    color: black;
+}
+.more-details1{
+    margin-bottom: 40px;
+    margin-left: 260px;
+    display: flex;
+    color: #25A59E;
+}
+.always-have{
+    margin-right: 150px;
+    color: #FFFFFF;
+}
+.card5{
+    background-color: #13b0a8;
+    color: #FFFFFF;
+}
+.special-tickets{
+    margin-right: 120px;
+    color: #FFFFFF;
+}
+.we-always{
+    margin-right: 33px;
+    color: #FFFFFF;
+}
+.give-them{
+    margin-right: 112px;
+    color: #FFFFFF;
+}
+.more-details2{
+    margin-bottom: 40px;
+    margin-left: 260px;
+    display: flex;
+}
+.always-ready{
+    margin-right: 130px;
+    color: black;
+}
+.support-24-7{
+    margin-right: 130px;
+    color: black;
+}
+.always-make-time{
+    margin-right: 25px;
+    color: black;
+}
+.anytime-anywhere{
+    margin-right: 114px;
+    color: black;
+}
+.more-details3{
+    margin-bottom: 40px;
+    margin-left: 260px;
+    display: flex;
+    color: #25A59E;
+}
+.arrow{
+    margin-left: 5px;
+}
+.sec3-1{
+    font-size: 40px;
+}
+.last-sec-para{
+    text-align: center;
+}
+.shape-like-cylinder{
+    position: relative;
+    margin-top: 130px;
+
+}
+.travel-memorable-pic{
+    position: absolute;
+    margin-left: -300px;
+    margin-top: 5px;
+
+}
+.watch-documentation{
+    font-size: 40px;
+}
+.best-offer{
+    margin-right: 20px;
+    font-size: 40px;
+}
+.now{
+    color: black;
+    margin-right: 219px;
+}
+.CTAprimer{
+    background-color: #25A59E;
+    color: #FFFFFF;
+    width: 147px;
+    height: 54px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    gap: 10px;
+    display: inline-block;
+    font-family: "Urbanist";
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: right;
+    width: 83px;
+    height: 22px;
+    margin-right: 185px;
+}
+.content{
+ color: #13b0a8;
+ font-family: "Gilda Display";
+ width: 52px;
+ height: 19px;
+ border: 0.7px;
+ margin-left: 65px;
+}
+.last-para{
+    margin-left: 30px;
+}
+.immediately{
+    margin-right: 170px;
+    color: black;
+    font-family: "Urbanist";
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.instagram{
+    margin-right: -10px;
+     width: 40px;
+     height: 40px;
+     border-radius: 100px;
+ }
+ .twitter{
+     padding-right: 0px;
+     padding-left: 2px;
+     margin-right: 15px;
+     width: 40px;
+     height: 40px;
+     border-radius: 100px;
+ }
+ .youtube{
+     margin-right: 1px;
+     width: 40px;
+     height: 40px;
+     border-radius: 100px;
+ }
+.foot-info{
+    font-family: "Urbanist";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.urb1{
+    width: 43px;
+    height: 24px;
+    margin-right:15px;
+}
+.urb2{
+    width: 87px;
+    height: 24px;
+    margin-right:15px;
+}
+.urb3{
+    width: 43px;
+    height: 24px;
+    margin-right:15px;
+}
+.urb4{
+    width: 79px;
+    height: 24px;
+    margin-right:15px;
+}
+
+
+
