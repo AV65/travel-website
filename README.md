@@ -73,7 +73,8 @@ The page is styled using CSS and follows modern design principles:
   - Destination images.
   - Icons (social media, location, arrows).
 
-
+## Presentation link
+[[Presentation link](https://www.loom.com/share/36a84b4694524549b81812bfacfdf62d?sid=017a3cae-18f7-4513-bc84-4ed140299bcb)]
 ## Author
 Name: [Muhammad Farouk]
 Contact: [salihiyaha4@gmail.com]
